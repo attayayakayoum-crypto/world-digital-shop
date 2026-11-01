@@ -109,5 +109,82 @@ footer p { font-size: 10px; color: var(--muted); }
 
   </div>
 </section>
+  /* WDS PREMIUM */
+.premium-section {
+  padding: 65px 20px;
+  background: #111;
+  text-align: center;
+}
+
+.premium-card {
+  max-width: 650px;
+  margin: auto;
+  padding: 40px 25px;
+  background: #1b1b1b;
+  border: 1px solid #b89455;
+  border-radius: 18px;
+  color: #f8f6f1;
+}
+
+.premium-label {
+  color: #b89455;
+  letter-spacing: 3px;
+}
+
+.premium-card h2 {
+  font-size: 38px;
+  color: white;
+}
+
+.premium-subtitle {
+  color: #d9c18f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.premium-details {
+  max-width: 390px;
+  margin: 25px auto;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.premium-price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #d9c18f;
+  margin: 25px 0;
+}
+
+.premium-note {
+  color: #ccc;
+}
+
+.premium-button {
+  display: inline-block;
+  padding: 13px 28px;
+  background: #b89455;
+  color: #111;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+.premium-card small {
+  display: block;
+  margin-top: 20px;
+  color: #d9c18f;
+}
+
+@media (max-width: 600px) {
+  .premium-card h2 {
+    font-size: 29px;
+  }
+
+  .premium-card {
+    padding: 30px 18px;
+  }
+}
 
 }
